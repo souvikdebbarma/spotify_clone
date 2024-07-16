@@ -1,0 +1,29 @@
+
+
+html, body, * {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvatica Nueu";
+    max-height: 100vh;
+    height: 100vh;
+}
+
+.left {
+    background-color: black;
+    position: relative;
+    width: 300px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+}
