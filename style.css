@@ -26,4 +26,97 @@ body {
     font-size: 16px;
     font-weight: 500;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.gray-filtered {
+    filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0deg);
+}
+
+.menu ul {
+    width: 100%;
+}
+
+.menu ul li img {
+    width: 24px;
+}
+
+.menu ul li {
+    padding: 5px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.menu ul * {
+    cursor: pointer;
+}
+
+.menu ul li a span {
+    position: relative;
+    top: -5px;
+    left: 8px;
+}
+
+.menu ul li:first-child() a img {
+    filter: invert(0.5) sepia(0) saturate(89) hue-rotate(75deg) !important;
+}
+
+.menu ul li:first-child span {
+    color: white !important;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    padding-left: 0 !important;
+}
+
+.playlists {
+    font-weight: 400 !important;
+}
+
+.playlists ul li a span {
+    left: 0px;
+}
+
+.current-song-cover img {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    left: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - var(--footer-height)) !important;
+}
+
+.right {
+    width: 100%
+}
+
+.arrow-container {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #43434c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
