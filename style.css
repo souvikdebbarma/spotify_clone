@@ -120,3 +120,158 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.playlist-arrows  {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-container {
+    margin-right: 15px !important;
+}
+
+.playlist-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playlist-header {
+    padding: 20px;
+}
+
+.playlist-top-email {
+    display: flex;
+    align-items: center;
+    background-color: #434343;
+    border-radius: 20px;
+    color:white;
+}
+
+.playlist-header .arrow-container {
+    background-color: #535353;
+    margin: 2px;
+}
+
+.playlist-top-email span {
+    padding: 0 10px;
+}
+
+
+.playlist-header {
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(119,119,119,1) 100%);
+}
+
+.playlist-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.playlist-cover img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 2px 35px -1px rgba(0,0,0,0.45);
+}
+
+.playlist-info {
+    color:white;
+    padding-left: 20px;
+}
+
+.playlist-public {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "AvenirLTStd-Black";
+}
+
+.playlist-title {
+    font-size: 86px;
+    font-weight: 1000;
+
+    margin-top: 10px;
+    font-family: "AvenirLTStd-Black";
+}
+
+.playlist-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color:#B5B5B5;
+}
+
+.playlist-stats  img{
+    position: relative;
+    top: 6px;
+}
+
+.playlist-stats span:first-of-type {
+    font-weight: 1000;
+    font-family: "AvenirLTStd-Black";
+}
+
+
+.playlist-buttons-left, .playlist-buttons-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playlist-buttons-resume-pause {
+    background-color: var(--spotify-green);
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-buttons-like svg path{
+    fill: var(--spotify-green) ;
+}
+
+.playlist-buttons-like {
+    margin-left: 20px;
+}
+
+.playlist-songs-container {
+    height: 1000px;
+    padding: 20px;
+    background: rgb(95,95,95);
+background: linear-gradient(180deg, rgba(95,95,95,1) 0%, rgba(18,18,18,1) 22%, rgba(18,18,18,1) 100%);
+}
+
+.playlist-buttons-download, .playlist-buttons-three-dot {
+    margin-left: 20px;
+}
+
+.playlist-buttons-download svg path, .playlist-buttons-three-dot svg path, .playlist-buttons-search svg path {
+    fill: #CACACA;
+}
+
+.playlist-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist-buttons-order {
+    color:#CACACA;
+}
+
+.playlist-buttons-order {
+    padding-left: 20px;
+}
+
+.playlist-songs {
+    margin-top: 20px;
+}
+
+.playlist-songs table {
+    border-collapse: collapse;
+    width: 100%;
+}
